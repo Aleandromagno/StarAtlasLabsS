@@ -854,7 +854,7 @@
 
 				let latestBH = await solanaReadConnection.getLatestBlockhash('confirmed');
 				tx.recentBlockhash = latestBH.blockhash;
-				tx.lastValidBlockHeight = latestBH.lastValidBlockHeight-150;
+				tx.lastValidBlockHeight = latestBH.lastValidBlockHeight-100;
 				tx.feePayer = userPublicKey;
 				tx.signer = userPublicKey;
                 */
